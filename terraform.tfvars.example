@@ -1,0 +1,17 @@
+vsphere_user     = "administrator@vsphere.local"
+vsphere_password = "change-me"
+vsphere_server   = "vcenter.example.com"
+
+allow_unverified_ssl = true
+
+datacenter    = "Datacenter"
+cluster       = "Cluster01"
+datastore     = "Datastore01"
+network       = "VM Network"
+iso_path      = "ISO/ubuntu-22.04-live-server-amd64.iso"
+guest_id      = "ubuntu64Guest"
+
+vm_name      = "terraform-vm-01"
+cpu_count    = 2
+memory_mb    = 4096
+disk_size_gb = 40
